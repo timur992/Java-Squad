@@ -19,7 +19,7 @@ __Do not__ make up your own message strings.
 Though your implementation is where your creativity should shine.
 The purpose of this assignment is to verify that you understand variables, random variables, conditional statements (if) and loops. In your implementation __do not__  roll the dice (generate random values) before you need them. If someone got a "Big Fish" that player only needs three random numbers for a round. Also __do not__ use arrays, vector or any other container class.
 For determining the maximum die value, I want you to use multiple "if" statements.  __Do not__ use the max function. Before you use the "wheel", I want to make sure you can invent it.
-You can write your own little functions. But I __do not__ expect you to do so until I cover functions in lecture.
+You can write your own little functions or methods.
 See the below example of a game session:
 ```
 [Round 1] You rolled (2, 2, ?), machine rolled (4, 6, ?)...
