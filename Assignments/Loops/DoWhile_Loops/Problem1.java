@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Problem1 {
   public static void main (String [] args) {
-    /**
+    /*
       Import the Scanner Object
       Set up a logic that requires specific input from the user.
       Get the input from the user.
@@ -14,5 +16,16 @@ public class Problem1 {
       Make sure you have a descriptive Messages for a user. 
       If the user types incorrect password, print "You password is incorrect, please try again..."
      */
+
+     Scanner input = new Scanner(System.in);
+     String password = "";
+     System.out.println("What is the password ??? ");
+     do{
+       password = input.nextLine();
+       System.out.println("You entered:   " + password); 
+     } 
+     while(!"tim".equals(password));
+     System.out.println("BORAKALLO NOSTRADAMUS!!!!");
+     input.close(); 
   }
 }
